@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c6f077-2899-4e6f-bb9e-461c9aef5dfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MessageInputField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageInputField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +31,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="create-app" />
-                    <option name="lastUsedInstant" value="1652152729" />
+                    <option name="branchName" value="set-gred-item" />
+                    <option name="lastUsedInstant" value="1652168377" />
                   </RecentBranch>
                 </list>
               </option>
@@ -87,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1620972853837</updated>
       <workItem from="1620972855073" duration="647000" />
-      <workItem from="1652150944844" duration="3800000" />
+      <workItem from="1652150944844" duration="4147000" />
+      <workItem from="1652157947531" duration="2010000" />
     </task>
     <servers />
   </component>
