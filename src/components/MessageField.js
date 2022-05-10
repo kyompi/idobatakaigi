@@ -1,35 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { TextField } from '@material-ui/core';
 
-import { Grid, Avatar } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
-import { gravatarPath } from '../gravatar'
-import {MessageField} from './MessageField'
+import { pushMessage } from '../firebase';
 
-const useStyles = makeStyles({
-  root: {
-    gridRow: 2,
-    margin: '26px'
-  }
-})
-
-export const MessageInputField = ({ name }) => {
-  const [text, setText] = useState()
-  const classes = useStyles()
-  const avatarPath = gravatarPath(name)
+const MessageField = ({ inputEl, name, setText, text }) => {
+  const [isComposed, setIsComposed] = useState(false);
 
   return (
-    <div className={classes.root}>
-      <Grid container>
-        <Grid xs={1}>
-          <Avatar src={avatarPath} />
-        </Grid>
-        <Grid xs={10}>
-          <MessageField name={name} setText={setText} text={text} />
-        </Grid>
-        <Grid xs={1}>
-          ボタン
-        </Grid>
-      </Grid>
-  </div>
-    )
-}
+    <TextField
+      autoFocus
+      fullWidth={true}
+      inputRef={inputEl}
+      onChange={(e) => setText(e.target.value)}
+      onKeyDown={(e) => {
+        if (isComposed) return;
+
+        const text = e.target.value;
+        if (text === '') return;
+
+        if (e.key === 'Enter') {
+          pushMessage({ name: 'はむさん', text });
+          setText('');
+          e.preventDefault();
+        }
+      }}
+      onCompositionStart={() => setIsComposed(true)}
+      onCompositionEnd={() => setIsComposed(false)}
+      value={text}
+    />
+  );
+};
+
+export default MessageField;
