@@ -24,3 +24,6 @@ yarn-error.log*
 
 /.bash_history
 .idea/workspace.xml
+.idea/idobatakaigi.iml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
