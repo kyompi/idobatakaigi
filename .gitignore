@@ -27,3 +27,7 @@ yarn-error.log*
 .idea/idobatakaigi.iml
 .idea/modules.xml
 .idea/inspectionProfiles/Project_Default.xml
+
+/.firebaserc
+/firebase.json
+/.firebase
